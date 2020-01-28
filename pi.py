@@ -15,5 +15,3 @@ def pi_func(n=10):
 
 nlist = list(range(1,1001))
 pilist = list(map(pi_func, nlist))
-#rint(pilist)
-#print(numpy.mean(pilist))
