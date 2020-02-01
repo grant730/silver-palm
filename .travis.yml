@@ -2,7 +2,7 @@
 
 language: python
 install:
-  - pipenv install --dev --ignore-pipfile --deploy
+  - pipenv install --dev --ignore-pipfile
 script:
   - pytest
 
