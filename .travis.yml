@@ -1,8 +1,6 @@
 # Config file for automatic testing at travis-ci.org
 
 language: python
-python:
-  - "stable"
 install:
   - pipevn intstall --dev --ignore-pipfile --deploy
 script:
