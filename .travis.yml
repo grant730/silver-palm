@@ -4,7 +4,7 @@ language: python
 python:
   - "stable"
 install:
-  - pip install
+  - pipevn intstall --dev --ignore-pipfile --deploy
 script:
   - pytest
 
