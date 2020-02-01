@@ -4,5 +4,5 @@ language: python
 install:
   - pipenv install --dev --ignore-pipfile
 script:
-  - pytest -q pi.py
+  - python pi.py
 
