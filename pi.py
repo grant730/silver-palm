@@ -1,4 +1,4 @@
-import numpy
+#import numpy
 
 '''
 local-branch4
@@ -17,5 +17,5 @@ def pi_func(n=10):
     print("points under arc:", points_in_arc, "  total points:", n, "pi:", pi)
     return (pi)
 
-nlist = list(range(1, 1001))
+nlist = list(range(1, 10001))
 pilist = list(map(pi_func, nlist))
